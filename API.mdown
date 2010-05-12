@@ -1,0 +1,6 @@
+WWDC Parties API
+================
+
+I have provided an API for accessing the WWDC Parties data. Said API is *not* included in this source, but is available for access. If you wish to use this data source to build your own project, please contact Geoff Pado via email to request permission.
+
+Data for all parties is available by sending a GET request to `http://wwdcparties.com/parties`. Data for individual parties is available at `http://wwdcparties.com/parties/guid`, where `guid` is the party's unique ID (included in the full list).

@@ -1,0 +1,9 @@
+.sc-list-item-view label {
+	height: 30px;
+	font-weight: bold;
+	font-size: 15pt;
+}
+
+.sc-outline {
+	border-bottom: 1px solid rgb(224, 224, 224);
+}

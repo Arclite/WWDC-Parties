@@ -1,0 +1,3 @@
+WWDC Party App/Site
+
+This is the source for the site at [http://wwdcparties.com](http://wwdcparties.com/). It is designed to be used with the [SproutCore](http://sproutcore.com) framework. It is provided under the FreeBSD License. See LICENSE.mdown for details.
