@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WWDC Parties</title>
+		<link rel="stylesheet" href="styles/main.css" type="text/css" />
+		<script src="scripts/index.js" type="text/javascript"></script>
+		<script src="scripts/main.js" type="text/javascript"></script>
+		<meta name="viewport" content="width = device-width, user-scalable = no;" />
+		<meta charset="UTF-8" />
+	</head>
+	<body onload="loadParties(); pollBackButton();">
+		<div id="header">
+			<p onclick="resetParties()">WWDC Parties</p>
+			<div id="headerbuttons">
+				<a href="http://wwdcparties.com/newparty.html" class="button" onmouseup="buttonUp(event)" onmousedown="buttonDown(event)">Add Party</a>
+				<a href="http://geoffpado.tumblr.com/private/590385346/tumblr_l29wcpGGKx1qzsjou" class="button" onmouseup="buttonUp(event)" onmousedown="buttonDown(event)">About</a>
+			</div>
+		</div>
+		<div id="content">
+		</div>
+	</body>
+</html>

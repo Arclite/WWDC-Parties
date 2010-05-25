@@ -1,0 +1,34 @@
+/* @override http://wwdcparties.com/staging/styles/party.css */
+
+#partyInfo {
+	font-family: "Lucida Grande", "Lucida Sans", Verdana, Arial, sans-serif;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#partyName {
+	position: relative;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#partySetting {
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 8px;
+}
+
+#partyMap {
+	position: relative;
+	font-size: 12px;
+	margin-top: 8px;
+}
+
+#partyMap a {
+	color: blue;
+}
+
+#partyButton {
+	position: relative;
+	margin-top: 8px;
+}

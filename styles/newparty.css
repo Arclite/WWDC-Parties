@@ -1,0 +1,32 @@
+/* @override http://wwdcparties.com/newparty.css */
+
+#partybox {
+	margin: auto;
+	background-color: #e8e7e5;
+	width: 300px;
+	padding: 8px;
+}
+
+#partybox p {
+	font-size: 80%;
+	color: #333333;
+	margin: 0px;
+	text-align: center;
+}
+
+#partybox label {
+	font-size: 80%;
+	color: #333333;
+}
+
+#partybox form {
+	margin-top: 8px;
+}
+
+#partybox input {
+	width: 292px;
+}
+
+#partybox submit{
+	margin-top: 8px;
+}

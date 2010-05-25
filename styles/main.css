@@ -1,0 +1,75 @@
+/* @override http://wwdcparties.com/staging/styles/main.css */
+
+@import url('party.css');
+@import url('index.css');
+
+* {
+	margin: 0;
+}
+
+#header {
+	background: -webkit-gradient(linear, left top, left bottom, from(#667185), to(#565e72));
+	height: 36px;
+	padding-left: 8px;
+	border-top: 1px solid #4d5567;
+	
+	font-family: "Lucida Grande", "Lucida Sans", Verdana, Arial, sans-serif;
+	font-weight: bold;
+	font-size:18px;
+}
+
+#header p {
+	padding-top: 6px;
+	display: inline-block;
+	color: white;
+	
+	cursor: pointer;
+	
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+
+}
+
+a.button {
+	padding: 4px 8px;
+	display: inline;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	color: black !important;
+	text-decoration: none !important;
+
+	background-color: #eeeeee;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dddddd));
+	background-image: -moz-linear-gradient(center bottom, #ffffff 0%, #dddddd 100%);
+
+	border: 1px solid #dddddd;
+	font-size: 12px;
+	font-weight: normal;
+	
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	
+	cursor: pointer;
+}
+
+a.clicked {
+	background-color: #eeeeee;
+	background: -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#868686));
+	background-image: -moz-linear-gradient(center bottom, #2a2a2a 0%, #868686 100%);
+	
+	border: 1px solid #353536;
+	color: white !important;
+}
+
+#headerbuttons {
+	position: absolute;
+	display: inline-block;
+	float: right;
+	top: 5px;
+	right: 8px;
+}

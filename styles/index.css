@@ -1,0 +1,33 @@
+/* @override http://wwdcparties.com/staging/styles/index.css */
+
+.cell {
+	border-bottom: 1px solid #e0e0e0;
+	height: 43px;
+
+	cursor: pointer;
+
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+.cell p {
+	font-family: "Lucida Grande", "Lucida Sans", Verdana, Arial, sans-serif;
+	font-size: 15pt;
+	font-weight: bold;
+
+	padding-left: 8px;
+	padding-top: 10px;
+
+	color: black;
+}
+
+div.clicked {
+	background-color: #2370d8;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4392f2), to(#2d6ae2));
+	background-image: -moz-linear-gradient(center bottom, #4392f2 0%, #2d6ae2 100%);
+}
+
+div.clicked p {
+	color: white;
+}
